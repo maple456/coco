@@ -41,7 +41,7 @@ def helpmessage():
 ╚═〘 Credits By: ©CoCo™  〙
 """
     return helpMessage
-admin=['u28d781fa3ba9783fd5144390352b0c24',clMID]
+admin=['uec6d62c3e4a61f033332bc1d86133e49',clMID]
 def lineBot(op):
     try:
         if op.type == 0:
@@ -66,7 +66,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     cl.sendMessage(to, str(helpMessage))
-                    cl.sendContact(to, "u28d781fa3ba9783fd5144390352b0c24")
+                    cl.sendContact(to, "uec6d62c3e4a61f033332bc1d86133e49")
                 elif text.lower() == 'speed':
                     time0 = timeit.timeit('"-".join(str(n) for n in range(100))', number=10000)
                     str1 = str(time0)
