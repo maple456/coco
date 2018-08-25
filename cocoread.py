@@ -34,11 +34,11 @@ def logError(text):
 def helpmessage():
     helpMessage = """
 ╔═══════════
-╠♥ ✿ CoCo指令表 ✿ ♥
+╠♥ ✿ 楓糖指令表 ✿ ♥
 ╠➥ 「Speed」查看機器速度
 ╠➥ 「Set」查看設定
 ╠➥ 「Reread On/Off」查看收回 打開/關閉
-╚═〘 Credits By: ©CoCo™  〙
+╚═〘 創作者 By: ©楓糖™  〙
 """
     return helpMessage
 admin=['uec6d62c3e4a61f033332bc1d86133e49',clMID]
